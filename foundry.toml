@@ -1,0 +1,12 @@
+[profile.default]
+
+solc_version = "0.8.27"
+optimizer = true
+
+lib = ["lib"]
+
+remappings = [
+	'@openzeppelin/contracts=lib/openzeppelin-contracts/contracts/',
+	'@ensdomains/ens-contracts=lib/ens-contracts/',
+]
+libs = ["node_modules", "lib"]
